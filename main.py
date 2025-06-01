@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 app = Flask(__name__)
 
-API_KEY = os.getenv("610ea384232c14956b70a9bd7ba707c795a5157b3878e2987f107b118e1a0a66")
+API_KEY = os.getenv("TOGETHER_API_KEY")
 LLM_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free"
 
 PROMPT = (
